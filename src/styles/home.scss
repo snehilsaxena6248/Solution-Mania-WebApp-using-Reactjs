@@ -18,11 +18,11 @@
         justify-content: center;
          
         h1{
-            font: 400 6rem $text1;
+            font: 400 6rem $text1!important;
             color: $first;
         }
         p{
-            font: 900 1rem $text1;
+            font: 900 1rem $text1!important;
             color: $first;
 
         }
@@ -64,7 +64,7 @@
         color: $first;
         letter-spacing: 2px;
         word-spacing: 5px;
-        font: 100 1.2rem $text2;
+        font: 100 1.2rem $text2!important;
     }
 }
 
@@ -103,7 +103,7 @@
             letter-spacing: 1px;
             word-spacing: 5px;
             line-height: 170%;
-            font: italic 100 1.2rem $text2;
+            font: italic 100 1.2rem $text2!important;
         }
     }
 }
@@ -159,7 +159,7 @@
                     font-size: 4rem;
                 }
                 p{
-                    font: 900 1.2rem $text2;
+                    font: 900 1.2rem $text2!important;
                 }
 
             }
